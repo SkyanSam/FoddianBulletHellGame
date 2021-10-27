@@ -22,6 +22,7 @@ public class SpawnerAI : MonoBehaviour
     void Update()
     {
         velocity = new Vector3(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized;
+        if (velocity == Vector3.zero) velocity = new Vector3(Random.Range(-1f, 1f), Random.Range(-1f, 1f)).normalized * 0.5f;
         timer -= Time.deltaTime;
         if (timer < 0)
         {

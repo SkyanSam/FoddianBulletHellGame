@@ -41,6 +41,7 @@ public class SpawnerAppear : MonoBehaviour
         LeanTween.cancel(gameObject);
         var sequence = LeanTween.sequence();
         GetComponent<CircleCollider2D>().enabled = true;
+        GetComponent<AudioSource>().Play();
         sequence.append(() => transform.localScale = Vector2.one * normalSize);
         sequence.append(() => GetComponent<BulletSpawner>().SpawnBullets());
         sequence.append(() => GetComponent<SpriteRenderer>().color = dissappearColor);

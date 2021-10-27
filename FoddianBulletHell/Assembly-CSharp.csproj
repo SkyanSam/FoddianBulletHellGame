@@ -58,12 +58,15 @@
   <ItemGroup>
     <Compile Include="Assets\LeanTween\Examples\Scripts\LogoCinematic.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralBasics2d.cs" />
+    <Compile Include="Assets\Scripts\ColorManager.cs" />
     <Compile Include="Assets\Scripts\Bullet\BulletSpawner.cs" />
+    <Compile Include="Assets\Scripts\Events\KeyEvent.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\TestingUnitTests.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathBezier2d.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSpline2d.cs" />
     <Compile Include="Assets\Scripts\Bullet\Bullet.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralCameraShake.cs" />
+    <Compile Include="Assets\Scripts\Laser.cs" />
     <Compile Include="Assets\Scripts\MoveAlongAxis.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralSimpleUI.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSpline.cs" />
@@ -72,12 +75,15 @@
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplineEndless.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralBasic.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralAdvancedTechniques.cs" />
+    <Compile Include="Assets\Scripts\ColorPalette.cs" />
     <Compile Include="Assets\LeanTween\Framework\LTSeq.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\GeneralSequencer.cs" />
     <Compile Include="Assets\LeanTween\Framework\LeanSmooth.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplinePerformance.cs" />
     <Compile Include="Assets\LeanTween\Framework\LeanTest.cs" />
     <Compile Include="Assets\Scripts\RotateDegPerSec.cs" />
+    <Compile Include="Assets\Scripts\AIPreset.cs" />
+    <Compile Include="Assets\Scripts\Events\FoddianEvent.cs" />
     <Compile Include="Assets\LeanTween\Framework\LeanTween.cs" />
     <Compile Include="Assets\LeanTween\Examples\Archived\TestingPunch.cs" />
     <Compile Include="Assets\LeanTween\Framework\LeanAudio.cs" />
@@ -89,8 +95,11 @@
     <Compile Include="Assets\LeanTween\Examples\Archived\TestingRigidbodyCS.cs" />
     <Compile Include="Assets\Scripts\SpawnerAI.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathBezier.cs" />
+    <Compile Include="Assets\Scripts\ColorApplier.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\TestingZLegacyExt.cs" />
+    <Compile Include="Assets\Scripts\KeyLockManager.cs" />
     <Compile Include="Assets\Scripts\FlyingArrow.cs" />
+    <Compile Include="Assets\Scripts\Events\AIEvent.cs" />
     <Compile Include="Assets\LeanTween\Framework\LeanTweenExt.cs" />
     <Compile Include="Assets\LeanTween\Framework\LTDescrOptional.cs" />
     <Compile Include="Assets\LeanTween\Examples\Scripts\PathSplines.cs" />
@@ -100,16 +109,9 @@
     <Compile Include="Assets\Scripts\SpawnerAppear.cs" />
     <Compile Include="Assets\LeanTween\Examples\Archived\OldGUIExamplesCS.cs" />
     <Compile Include="Assets\Scripts\SpawnerArrow.cs" />
-    <Compile Include="Assets\Scripts\ColorManager.cs" />
-    <Compile Include="Assets\Scripts\ColorPalette.cs" />
-    <Compile Include="Assets\Scripts\ColorApplier.cs" />
-    <Compile Include="Assets\Scripts\Events\AIEvent.cs" />
     <Compile Include="Assets\Scripts\Events\PaletteEvent.cs" />
-    <Compile Include="Assets\Scripts\Events\KeyEvent.cs" />
-    <Compile Include="Assets\Scripts\Events\FoddianEvent.cs" />
-    <Compile Include="Assets\Scripts\AIPreset.cs" />
-    <Compile Include="Assets\Scripts\KeyLockManager.cs" />
-    <Compile Include="Assets\Scripts\Laser.cs" />
+    <Compile Include="Assets\Scripts\Timer.cs" />
+    <Compile Include="Assets\Scripts\SceneFunc.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

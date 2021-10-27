@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -51,10 +52,15 @@ public class Player : MonoBehaviour
         {
             collision.GetComponent<FoddianEvent>().StartEvent();
         }
+        else if (collision.tag == "FinishLine")
+        {
+            SceneManager.LoadScene("EndGame");
+        }
         if (hp == 0)
         {
             if (blinking)
             {
+                GetComponent<AudioSource>().Play();
                 StartCoroutine(Blink());
                 /*
                 var seq = LeanTween.sequence();
